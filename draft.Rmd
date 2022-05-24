@@ -1,0 +1,33 @@
+
+
+# Introduction 
+
+Odds ratios measure the association between variables.
+This is done by dividing the odds of a binary variable in one group by the odds in the other group; the odds being the number with an outcome divided by the number without.
+Since the number without an outcome tends towards the total sample size as the prevalence of the outcome tends to zero, at low prevalence levels the odds and the prevalence are almost equivalent.
+For example, the odds and the prevalence of blue eyes globally are X and X, respectively. 
+The odds and the prevalence diverge as the prevalence increases. 
+For example, the odds and the prevalence of blue eyes in the UK are X and X. 
+This divergence applies to odds ratios and prevalence ratios. 
+If the prevalence of an outcome is 30% in one group, and 28% in the other, a 2 percentage-point difference and prevalence ratio of 30/28 = 1.1, the odds ratio is 1.2, i.e. the odds in the first group is 20% greater than in the second. 
+
+This non-intuitive measure of asssociation has persisited in epidemiology because of logisitic regression. 
+Logistic regression uses the logit, a the log of the odds, since this is unbounded -- can range from minus to plus infinity -- and therefore can be estimated consistently and without bias using maximum-likelihood estimation. 
+This has been a powerful tool, allowing adjusted analyses of cross-sectional and case-control studies. 
+
+New methods have emerged for the analysis of binary cross-sectional studies that estimate prevalence ratios and prevalence differences. 
+These have been slow to be adopted in the literature, and the presentation of odds ratios prevails. 
+In this paper we review two methods for producing prevalence ratios and prevalence differences, and provide references and code to support their adoption. 
+
+# Methods 
+
+To motivate and demonstrate the consequences of moving away from logistic regression we are going to use two datasets. 
+One is a synthetic dataset..
+The second is taken from the MICS.. 
+
+## Modified Poisson regression 
+
+
+## G-methods 
+
+
